@@ -13,15 +13,20 @@ int main() {
     int quotient;
     int reste;
 
-    scanf("%d", &number);
-    scanf("%d", &number1);
+    if (scanf("%d", &number) != 1 || scanf("%d", &number1) != 1) {
+        printf("Entrée invalide\n");
+        return 1;
+    }
 
+    sum = number + number1;
+    diff = number - number1;
+    mul = number * number1;
     if (number1 != 0) {
-        sum = number + number1;
-        diff = number - number1;
-        mul = number * number1;
         quotient = number / number1;
         reste = number % number1;
+    }else {
+        printf("Impossible\n");
+        return 1;
     }
 
     printf("%d %d %d %d %d\n", sum, diff, mul, quotient, reste);

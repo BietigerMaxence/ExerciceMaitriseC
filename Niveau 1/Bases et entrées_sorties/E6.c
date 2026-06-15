@@ -13,7 +13,7 @@ int main() {
 
     aire = PI * rayon * rayon;
 
-    printf("perimetre = %lf\n", aire);
+    printf("aire = %lf\n", aire);
 
     return 0;
 
