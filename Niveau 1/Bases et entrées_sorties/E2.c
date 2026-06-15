@@ -9,6 +9,6 @@ int main() {
     float pi = 3.14;
     char letter = 'a';
 
-    printf("%d %f %c", number, pi, letter);
+    printf("%d %f %c\n", number, pi, letter);
     return 0;
 }

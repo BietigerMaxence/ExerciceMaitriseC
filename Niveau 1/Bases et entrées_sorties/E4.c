@@ -10,7 +10,7 @@ int main() {
 
     scanf("%f", &tempCelsius);
 
-    tempFahrenheit = (tempCelsius * 9/5) + 32;
+    tempFahrenheit = (tempCelsius * 9.0/5.0) + 32.0;
 
     printf("%.1f", tempFahrenheit);
     return 0;

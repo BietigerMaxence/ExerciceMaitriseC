@@ -16,11 +16,13 @@ int main() {
     scanf("%d", &number);
     scanf("%d", &number1);
 
-    sum = number + number1;
-    diff = number - number1;
-    mul = number1 * number1;
-    quotient = sum / 2;
-    reste = sum % 2;
+    if (number1 != 0) {
+        sum = number + number1;
+        diff = number - number1;
+        mul = number * number1;
+        quotient = number / number1;
+        reste = number % number1;
+    }
 
     printf("%d %d %d %d %d\n", sum, diff, mul, quotient, reste);
 }

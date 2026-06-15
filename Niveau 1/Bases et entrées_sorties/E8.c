@@ -5,16 +5,16 @@
 #include <stdio.h>
 
 int main() {
-    int note1;
-    int note2;
-    int note3;
-    int moyenne;
+    float note1;
+    float note2;
+    float note3;
+    float moyenne;
 
-    scanf("%d %d %d", &note1 , &note2, &note3);
+    scanf("%f %f %f", &note1 , &note2, &note3);
 
-    moyenne = (note1 + note2 + note3)/3;
+    moyenne = (note1 + note2 + note3)/3.0;
 
-    printf("%d\n", moyenne);
+    printf("%.2f\n", moyenne);
 
     return 0;
 }

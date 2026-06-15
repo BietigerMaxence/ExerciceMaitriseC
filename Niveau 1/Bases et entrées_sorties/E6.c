@@ -6,14 +6,14 @@
 
 int main() {
     const double PI = 3.14159;
-    double longueur;
-    double perimetre;
+    double rayon;
+    double aire;
 
-    scanf("%lf", &longueur);
+    scanf("%lf", &rayon);
 
-    perimetre = 2 * PI * longueur;
+    aire = PI * rayon * rayon;
 
-    printf("perimetre = %lf\n", perimetre);
+    printf("perimetre = %lf\n", aire);
 
     return 0;
 

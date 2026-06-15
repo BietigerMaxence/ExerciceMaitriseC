@@ -8,12 +8,14 @@ int main() {
     int longueur;
     int largeur;
     int perimetre;
+    int aire;
 
     scanf("%d", &longueur);
     scanf("%d", &largeur);
 
-    perimetre = largeur * longueur;
+    perimetre = (largeur + longueur) *2;
+    aire = largeur * longueur;
 
-    printf("%d\n", perimetre);
+    printf("%d %d\n", perimetre, aire);
     return 0;
 }
